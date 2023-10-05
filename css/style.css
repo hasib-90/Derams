@@ -1,0 +1,167 @@
+
+
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+	font-size:14px;
+	scroll-behavior: smooth;
+}
+body{
+    font-size:14px;
+	font-family: 'Noto Sans', sans-serif;
+	text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+.mont{
+	font-family: 'Montserrat', sans-serif;
+}
+ ul{
+     list-style: none;
+     padding-left: 0;
+ }
+a{
+    text-decoration: none;
+}
+.line{
+    background: #35b9eb;
+    height: 1px;
+    max-width: 8rem;
+    margin: 2.5rem auto;
+}
+.part1 h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #222222;
+    text-align: center;
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.424);
+	padding: 1rem 0;
+	box-shadow: 0 .1rem .2rem .1rem rgba(0, 0, 0, 0.65);
+	z-index: 9999;
+}
+/* ====================Header Part============= */
+header{
+    background-image:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../image/hlogo.jpg");
+    background-position:center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.2rem 0 10rem 0 ;
+}
+nav .nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+}
+header .head-text{
+    margin-top: 10rem;
+}
+header .head-text h1{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+header .head-text .head-p{
+    color: #fff;
+    font-size: 1.4rem ;
+    text-align: center;
+    padding: 0 2.5rem;
+}
+/* =================Core Service Part=========== */
+.service{
+    padding: 6.4rem 0rem ;
+}
+.c-service h4{
+    font-size: 1.14rem;
+    color: #222222;
+    margin: 2.5rem 0 1.14rem 0;
+}
+.c-service .p1{
+    color: #888888;
+    list-style: 1.5rem;
+}
+.c-service .shover:hover{
+    box-shadow: 0rem .1rem .9rem #222222;
+    border-radius: 2rem .2rem 2rem .2rem;
+}
+
+
+.other{
+    margin-top: 6.4rem;
+    box-sizing: border-box;
+}
+.other h3, .portfolio h3{
+    font-size: 2.8rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.other h4{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+/* ======================TEAM Part============= */
+.team{
+    background: #f7f7f7;
+    padding: 90px 0;
+}
+.team .part11 h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.team .part11 .p1{
+    font-size: .7rem;
+}
+.team .part11 ul i{
+    color: #fff;
+    font-size: .7rem;
+    padding: .5rem;
+    background: #000;
+    border-radius: 50%;
+}
+.team .part11 ul li:first-child i{
+    padding: .5rem .6rem;
+}
+
+@media only screen and (max-width:576px) {
+    .team .part11 ul{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+/* =================Contact Part============ */
+.contact{
+    padding: 50px 0px 20px 0px;
+}
+.footer form .c-btn{
+    padding: 15px 30px;
+    border-radius: 30px;
+    background: #35c2f8;
+    color: #fff;
+    margin-top: 5px;
+}
+.fline{
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    margin: 2rem 0rem; 
+}
+
